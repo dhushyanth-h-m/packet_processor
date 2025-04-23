@@ -1,0 +1,11 @@
+add_executable(basic_capture basic_capture.cpp)
+target_link_libraries(basic_capture PRIVATE packet_processor_lib)
+
+add_executable(connection_monitor connection_monitor.cpp)
+target_link_libraries(connection_monitor PRIVATE packet_processor_lib)
+
+add_executable(protocol_analyzer protocol_analyzer.cpp)
+target_link_libraries(protocol_analyzer PRIVATE packet_processor_lib)
+
+# Install examples
+install(TARGETS basic_capture connection_monitor protocol_analyzer DESTINATION bin/examples) 
