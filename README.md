@@ -121,7 +121,7 @@ The zero packet drop rate demonstrates the engine's efficiency, even when handli
 - **Zero-Copy Architecture**: Minimizes CPU usage with memory-mapped buffers
 - **Multi-Threaded Processing**: Efficiently utilizes multi-core CPUs
 - **Protocol Parsing**: Fast packet header parsing for all common protocols
-- **Connection Tracking**: Track 10,000+ concurrent connections
+- **Connection Tracking**: Track 300,000+ concurrent connections
 - **MacOS Optimized**: Platform-specific optimizations for both Intel and Apple Silicon
 - **Comprehensive Statistics**: Real-time performance metrics and analysis
 - **Modular Design**: Easily extensible for custom packet processing
