@@ -48,6 +48,10 @@ target_include_directories(packet_processor PUBLIC
 add_executable(packet_capture_example examples/packet_capture_example.cpp)
 target_link_libraries(packet_capture_example packet_processor)
 
+# Benchmark tool
+add_executable(benchmark benchmarks/benchmark.cpp)
+target_link_libraries(benchmark packet_processor)
+
 # Installation rules
 install(TARGETS packet_processor
     EXPORT packet_processor-export
