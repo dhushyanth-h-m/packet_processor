@@ -1,6 +1,6 @@
 # High-Throughput Packet Processing Engine
 
-A high-performance packet processing engine designed for macOS, optimized for both Intel and Apple Silicon architectures.
+A high-performance packet processing engine.
 
 ## Features
 
@@ -15,7 +15,6 @@ A high-performance packet processing engine designed for macOS, optimized for bo
 
 ## Requirements
 
-- macOS 11.0 or higher (Big Sur+)
 - CMake 3.14 or higher
 - Clang or GCC with C++17 support
 - libpcap (typically pre-installed on macOS)
@@ -26,7 +25,7 @@ A high-performance packet processing engine designed for macOS, optimized for bo
 Clone the repository and build with CMake:
 
 ```bash
-git clone https://github.com/yourusername/packet-processor.git
+git clone https://github.com/dhushyanth-h-m/packet_processor
 cd packet-processor
 mkdir build && cd build
 cmake ..
